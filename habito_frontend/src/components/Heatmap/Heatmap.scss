@@ -1,0 +1,97 @@
+.heatmap {
+    padding: 0 30px;
+    margin-top: 20px;
+
+    .year-dropdown {
+        width: 100px;
+    }
+
+    .map {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .month {
+            .month-title {
+                text-align: center;
+            }
+
+            .month-box {
+                display: flex;
+
+                .week {
+                    display: flex;
+                    flex-direction: column;
+
+                    .day-0 {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border: 1px solid green;
+                        border-radius: 2px;
+                    }
+
+                    .day-1 {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border-radius: 2px;
+                        background-color: var(--1);
+                        border: 1px solid var(--1);
+                    }
+
+                    .day-2 {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border-radius: 2px;
+                        background-color: var(--2);
+                        border: 1px solid var(--2);
+                    }
+
+                    .day-3 {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border-radius: 2px;
+                        background-color: var(--3);
+                        border: 1px solid var(--3);
+                    }
+
+                    .day-4 {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border-radius: 2px;
+                        background-color: var(--4);
+                        border: 1px solid var(--4);
+                    }
+
+                    .day-5 {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border-radius: 2px;
+                        background-color: var(--5);
+                        border: 1px solid var(--5);
+                    }
+
+                    .day-null {
+                        display: flex;
+                        width: 12px;
+                        height: 12px;
+                        margin: 2px 1px;
+                        border-radius: 2px;
+                        border: 1px solid transparent;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+    .banner {
+        display: flex;
+        align-items: center;
+        .logo {
+            margin-right: 10px;
+            height: 30px;
+        }
+    }
+
+    .sign{
+        background-color: var(--3);
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+    }
+    box-shadow: 0 0px 20px -5px rgb(0 0 0 / 25%);
+}
